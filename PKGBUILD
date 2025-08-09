@@ -9,9 +9,9 @@ depends=(
 	'bemenu-wayland'
 	'wl-clipboard'
 )
-source=("https://github.com/therealzoxide/archdots/releases/download/v0.2/kaomoji.tar.xz")
+source=("https://github.com/therealzoxide/kaomoji/releases/download/v0.2/kaomoji.tar.xz")
 
 package() {
   install -Dm755 -t "${pkgdir}/usr/bin" kaomoji
 }
-sha256sums=('9042028671fe1446c5e9e05d234279c0cb6b3f4c60e8c87876471085a2309639')
+sha256sums=('1c9ff5205805f8d26540cbfcdc5bbf8090eaa1ee794334db7caa19d23ee925f8')
